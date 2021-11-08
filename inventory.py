@@ -30,7 +30,6 @@ inventory_array = [ammo1, consumable1]
 def damage_player(damage):
     global playerHP
     playerHP = playerHP - damage
-    print(f"u have {playerHP}")
 
 def inv_test():
     inventory_array.append(ammo1)
